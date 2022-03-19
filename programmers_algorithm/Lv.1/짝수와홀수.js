@@ -6,12 +6,10 @@
 num은 int 범위의 정수입니다.
 num은 int 범위의 정수입니다. */
 
-function solution(num){
-    if( num % 2 === 0) {
-
-        return "Even";
-            } else{
-
-                return "Odd";
-            }
+function solution(num) {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
 }
